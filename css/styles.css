@@ -1,0 +1,57 @@
+.jumbotron {
+  color: #000000;
+  text-align: center;
+}
+
+.jumbotron img {
+  opacity: .9;
+  border: 5px solid #000000;
+}
+
+.images img {
+  border-radius: 30px;
+  padding: 15px;
+  margin: 20px;
+  width: 33%;
+  float:left;
+}
+
+blockquote {
+ display: inline-block;
+ background-color: black;
+ margin: 0 0 20px;
+ font-family: Georgia, serif;
+ font-size: 22px;
+ line-height: 1.5;
+ color: #666;
+ padding: 5px;
+ text-align: justify;
+}
+
+#custom {
+border-left: 2.5px solid #e6e6e6;
+float: left;
+margin-top: 20px;
+}
+
+#button {
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+
+.show-price {
+  display: none;
+}
+
+#secondtopping {
+  margin-top: 40px;
+}
+
+p {
+  font-weight: bold;
+
+}
+
+h4 {
+  font-style: italic;
+}
