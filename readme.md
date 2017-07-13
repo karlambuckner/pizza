@@ -10,7 +10,7 @@ _This is a website for a pizza company that will let you order a build your own 
 
 ## Setup/Installation Requirements
 
-* _Open link in browser: https://karlambuckner.github.io/pizza/ _
+* _Open link in browser: https://karlambuckner.github.io/pizza/_
 
 ## Known Bugs
 
