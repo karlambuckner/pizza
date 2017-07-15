@@ -11,121 +11,65 @@
 
 <body>
   <div class="jumbotron">
-    <img src="img/Pitfire.jpg" alt="Photo of pizza logo." width="350px" height="280px"/>
+    <img src="img/Pitfire.jpg" alt="Photo of pizza logo." width="350px" height="280px" />
     <h4>111 Hawthorne Blvd</h4>
     <h4>503-111-5555</h4>
     <h4>Open 11AM - 11PM Daily</h4>
   </div>
   <div class="images">
-  <img src="img/pizza.jpg" alt="Picture of mushroom pizza." width=440px; height="310px"/>
-  <img src="img/pizza2.jpg" alt="Picture of server carrying pizzas." width=440px; height="310px"/>
-  <blockquote>
-  <p>"Best Pizza in Portland!" - Portland Mercury</p>
-  <p>"Perfect for families and catering" - Willamette Weekly</p>
-  </blockquote>
+    <img src="img/pizza.jpg" alt="Picture of mushroom pizza." width=440px; height="310px" />
+    <img src="img/pizza2.jpg" alt="Picture of server carrying pizzas." width=440px; height="310px" />
 
+    <blockquote>
+      <p>"Best Pizza in Portland!" - Portland Mercury</p>
+      <p>"Perfect for families and catering" - Willamette Weekly</p>
+    </blockquote>
 
-  <img src="img/pizza3.JPG" alt="Picture of restaurant." width=440px; height="310px"/>
-</div>
+    <img src="img/pizza3.JPG" alt="Picture of restaurant." width=440px; height="310px" />
+  </div>
 
 
   <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
+    <div class="row">
+      <div class="col-sm-6">
 
-          </div>
+      </div>
 
-  <div class="col-sm-6" id="custom">
-    <h2>Customize Your Pizza and Order Online.</h2>
-    <h3>We'll make it however you want it.</h3>
-    <form id="pizza">
-      <!--Size selectors  -->
-      <h3>Size</h3>
-      <div class="radio">
-        <label>
-                <input type="radio" name="optionsRadios1" id="Small" value= "8">
-                Small 10"
-              </label>
-      </div>
-      <div class="radio">
-        <label>
-                <input type="radio" name="optionsRadios2" id="Medium" value= "10" >
-                Medium 14"
-              </label>
-      </div>
-      <div class="radio">
-        <label>
-                <input type="radio" name="optionsRadios3" id="Large" value= "12" >
-                Large 18"
-              </label>
-      </div>
-      <!--Topping-meat selectors  -->
-      <h3>Toppings</h3>
+      <div class="col-sm-6" id="custom">
+        <h2>Customize Your Pizza and Order Online.</h2>
+        <h3>We'll make it however you want it.</h3>
+        <form id="pizza">
 
-      <p>All pizzas come with mozzerella cheese.</p>
+          <h3>Size</h3>
+          <div class="form-group">
+            <input type="checkbox" name="size" id="Small" value="8">Small 10"<br>
+            <input type="checkbox" name="size" id="Medium" value="10">Medium 14"<br>
+            <input type="checkbox" name="size" id="Large" value="14">Large 18"<br>
 
+            <h3>Toppings</h3>
+            <p>All pizzas come with mozzerella cheese.</p>
+            <h4>Meat</h4>
+            <input type="checkbox" name="meat" id="Pepperoni" value="3">Pepperoni<br>
+            <input type="checkbox" name="meat" id="Sausage" value="3">Fennel Sausage<br>
+            <input type="checkbox" name="meat" id="Bacon" value="3">Bacon<br>
+            <input type="checkbox" name="meat" id="Prosciutto" value="3">Prosciutto<br>
 
-      <h4>Meat</h4>
-      <div class="radio">
-        <label>
-                        <input type="radio" name="optionsRadios4" id="Pepperoni" value= "3">
-                        Pepperoni
-                      </label>
-      </div>
-      <div class="radio">
-        <label>
-                        <input type="radio" name="optionsRadios5" id="Sausage" value= "3" >
-                        Fennel Sausage
-                      </label>
-      </div>
-      <div class="radio">
-        <label>
-                        <input type="radio" name="optionsRadios6" id="Bacon" value= "3" >
-                        Bacon
-                      </label>
-      </div>
-      <div class="radio">
-        <label>
-                        <input type="radio" name="optionsRadios7" id="Prosciutto" value= "3" >
-                        Prosciutto
-                      </label>
-      </div>
-      <!--Topping-veggie selectors  -->
-      <h4>Veggies</h4>
-      <div class="radio">
-        <label>
-                        <input type="radio" name="optionsRadios7" id="Mushrooms" value= "2">
-                        Mushrooms
-                      </label>
-      </div>
-      <div class="radio">
-        <label>
-                        <input type="radio" name="optionsRadios8" id="Jalapeno" value= "2" >
-                        Jalapeno
-                      </label>
-      </div>
-      <div class="radio">
-        <label>
-                        <input type="radio" name="optionsRadios9" id="Onion" value= "2" >
-                        Onion
-                      </label>
-        <div class="radio">
-          <label>
-                          <input type="radio" name="optionsRadios10" id="Spinach" value= "2" >
-                          Spinach
-                        </label>
+            <h4>Veggies</h4>
+            <input type="checkbox" name="veg" id="Mushrooms" value="2">Mushrooms<br>
+            <input type="checkbox" name="veg" id="Jalapeno" value="2">Jalapeno<br>
+            <input type="checkbox" name="veg" id="Onions" value="2">Onions<br>
+            <input type="checkbox" name="veg" id="Spinach" value="2">Spinach<br>
+            <button type="submit" id="button" class="btn btn-default">Order</button>
+        </form>
+        <div class="show-price">
+          <h3>Your Pizza Order</h3>
+          <p>Pizza</p>
+          <ul><span id="pizzaOrder"></span></ul>
+          <p>Price</p>
+          <ul><span id="pizzaPrice"></span></ul>
         </div>
-        <button type="submit" id="button" class="btn btn-default">Order</button>
-    </form>
-    <div class="show-price">
-      <h3>Your Pizza Order</h3>
-      <p>Pizza</p>
-      <ul><span id="pizzaOrder"></span></ul>
-      <p>Price</p>
-      <ul><span id="pizzaPrice"></span></ul>
-    </div>
-    </div>
-  </div>
+        </div>
+      </div>
 </body>
 
 </html>
