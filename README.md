@@ -8,6 +8,10 @@
 
 _This is a website for a pizza company that will let you order a build your own pizza online. It will confirm your order and show the price for the pizza size plus all the toppings you would like to add._
 
+## Specifications
+
+_The customer can input what size pizza they would like. They can also pick what meat toppings and vegetable toppings they would like to add._
+
 ## Setup/Installation Requirements
 
 * _Open link in browser: https://karlambuckner.github.io/pizza/_
