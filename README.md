@@ -10,7 +10,7 @@ _This is a website for a pizza company that will let you order a build your own 
 
 ## Specifications
 
-_The customer can input what size pizza they would like. They can also pick what meat toppings and vegetable toppings they would like to add._
+_The customer can input what size pizza they would like. They can also pick what meat toppings and vegetable toppings they would like to add. When the user submits the order they will see a confirmation of the order and the price._
 
 ## Setup/Installation Requirements
 
